@@ -30,6 +30,7 @@ This repo contains the **guides** you need to:
 |------|----------------------------|
 | **[RUN.md](RUN.md)** | … learn the three ways to use or deploy the app (live / local / your-own-HF-Space) |
 | **[INTERPRETATION.md](INTERPRETATION.md)** | … *deeply* understand every figure element, every disease metadata field, what each number means |
+| **[DATA.md](DATA.md)** | … browse **all 374 diseases** by category + see the gene catalog summary |
 | **[ATLAS.md](ATLAS.md)** | … cite or share the app — public-facing description |
 | **[WORKFLOW.md](WORKFLOW.md)** | … rebuild a similar gene–disease GWAS app (reusable recipe for other projects) |
 | **[DEPLOY.md](DEPLOY.md)** | … push your own copy to Hugging Face Spaces (LFS, secrets, gotchas) |

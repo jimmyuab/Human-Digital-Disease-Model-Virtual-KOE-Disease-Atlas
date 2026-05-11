@@ -21,19 +21,14 @@ No login. No download. No GPU. Works on phone or desktop. ~1 second per search.
 
 ## 📚 What's in this repo
 
-This is a **documentation-only repo**. The app, code, and pre-computed data live on the live Hugging Face Space:
-🔗 **https://huggingface.co/spaces/jianlizhao/GeneDisease-MR-Browser**
+This is an **instruction-only repo**. You don't clone anything — you just click the live-app link and use it. The app, code, and pre-computed data live entirely on the Hugging Face Space.
 
-This repo contains the **guides** you need to:
+Two reading guides:
 
-| File | Use it when you want to … |
-|------|----------------------------|
-| **[RUN.md](RUN.md)** | … learn the three ways to use or deploy the app (live / local / your-own-HF-Space) |
-| **[INTERPRETATION.md](INTERPRETATION.md)** | … *deeply* understand every figure element, every disease metadata field, what each number means |
-| **[DATA.md](DATA.md)** | … browse **all 374 diseases** by category + see the gene catalog summary |
-| **[ATLAS.md](ATLAS.md)** | … cite or share the app — public-facing description |
-| **[WORKFLOW.md](WORKFLOW.md)** | … rebuild a similar gene–disease GWAS app (reusable recipe for other projects) |
-| **[DEPLOY.md](DEPLOY.md)** | … push your own copy to Hugging Face Spaces (LFS, secrets, gotchas) |
+| File | When to open |
+|------|--------------|
+| **[INTERPRETATION.md](INTERPRETATION.md)** | Before you trust any result — explains every plot element, every disease metadata field, and the priority score |
+| **[DATA.md](DATA.md)** | Before you search — lists **all 374 diseases** organized by category, plus the gene catalog summary |
 
 ---
 

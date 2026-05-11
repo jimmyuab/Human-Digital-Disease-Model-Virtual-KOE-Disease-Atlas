@@ -400,7 +400,7 @@ This atlas uses tissue-agnostic instruments. Causal effects might be tissue-spec
 KO and OE estimates assume linearity (`b_simulated = b_observed × (1 ± fraction)`). Real biology is often non-linear (saturable, threshold-dependent). The simulated p-values use 1000 Monte Carlo replicates from a Gaussian with mean = `b_simulated` and SD = the MR `se`.
 
 ### 7.5 The current pipeline uses deterministic mock statistics
-**Important context for the demo deployment:** the public Atlas at https://is.gd/virtual_gene_atlas uses *deterministic-mock* numbers (same gene + same disease always returns the same simulated value) so the architecture can be evaluated end-to-end without a long compute. To use real numbers, swap `compute_one_pair()` in `scripts/batch_compute_all.py` with a real `TwoSampleMR::mr()` call and re-run the batch. See [WORKFLOW.md §3](WORKFLOW.md#3-batch-compute-day-12) and [RUN.md §B.5](RUN.md#b5-regenerate-the-data-from-scratch).
+**Important context for the demo deployment:** the public Atlas at https://is.gd/virtual_gene_atlas uses *deterministic-mock* numbers (same gene + same disease always returns the same simulated value) so the architecture can be evaluated end-to-end without a long compute. To use real numbers, swap `compute_one_pair()` in `scripts/batch_compute_all.py` (on the [Hugging Face Space](https://huggingface.co/spaces/jianlizhao/GeneDisease-MR-Browser)) with a real `TwoSampleMR::mr()` call and re-run the batch.
 
 ### 7.6 P-values are NOT effect sizes
 A `P = 10⁻³⁰⁰` finding can have a tiny `ln(OR) = 0.02` (a 2 % effect — clinically irrelevant). Always look at both axes together:

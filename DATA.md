@@ -506,9 +506,9 @@ The 374 diseases were curated from the EBI GWAS Catalog (89,981 studies) by:
 3. **Capping at 50 studies per category** so the batch finishes in hours, not days, and
    so each category has comparable representation.
 
-You can re-filter to a wider net (e.g., 200 per category, or all categories) by editing
+To re-filter to a wider net (e.g., 200 per category, or all categories), edit
 [scripts/filter_diseases.py](https://huggingface.co/spaces/jianlizhao/GeneDisease-MR-Browser/blob/main/scripts/filter_diseases.py)
-and re-running the batch (see [RUN.md §B.5](RUN.md#b5-regenerate-the-data-from-scratch-optional)).
+on the Hugging Face Space and re-run the batch — see the Space's README.
 
 ---
 

@@ -2,7 +2,7 @@
 
 This file explains, element by element, exactly what every plot and every field means and how to draw scientific conclusions from them. Read it once and you can interpret any result the app produces.
 
-> Looking for the **list of available diseases** (all 374, organized by category) or the **gene catalog** (19,296 protein-coding symbols)? See **[DATA.md](DATA.md)**.
+> The list of available diseases (374, across 8 categories) and genes (19,296 protein-coding symbols) is browsable directly in the app's filterable dropdowns at https://is.gd/virtual_gene_atlas.
 
 ---
 

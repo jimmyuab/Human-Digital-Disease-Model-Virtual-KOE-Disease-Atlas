@@ -23,12 +23,13 @@ No login. No download. No GPU. Works on phone or desktop. ~1 second per search.
 
 This is an **instruction-only repo**. You don't clone anything — you just click the live-app link and use it. The app, code, and pre-computed data live entirely on the Hugging Face Space.
 
-Two reading guides:
+**One reading guide:**
 
 | File | When to open |
 |------|--------------|
 | **[INTERPRETATION.md](INTERPRETATION.md)** | Before you trust any result — explains every plot element, every disease metadata field, and the priority score |
-| **[DATA.md](DATA.md)** | Before you search — lists **all 374 diseases** organized by category, plus the gene catalog summary |
+
+Available diseases and genes can be browsed directly in the app's dropdowns (374 disease studies across 8 categories; all 19,296 protein-coding genes with type-ahead filtering).
 
 ---
 

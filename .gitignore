@@ -1,0 +1,17 @@
+# Office artifacts
+*.docx
+~$*
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Editor caches
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local notes (not for public repo)
+NOTES/
+notes/
+*.local.md

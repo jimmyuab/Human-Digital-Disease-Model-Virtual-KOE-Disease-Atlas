@@ -1,5 +1,6 @@
-# Office artifacts
+# Office artifacts — keep only the canonical publication-ready file
 *.docx
+!MANUSCRIPT.docx
 ~$*
 *.tmp
 .DS_Store
